@@ -1,15 +1,15 @@
-﻿ID,Work Item Type,Title,Assigned To,State,Tags
-"427476","Impedimento","Aguardando acesso a VM","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",
-"431184","Impedimento","Bloqueio em Acesso ao Twillio/Redis","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",
-"433945","Impedimento","Aguardando Validação QA","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",
-"434542","Impedimento","Aguardando validação do QA","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",
-"434950","Impedimento","Aguardando validação das melhorias/Aguardando prosseguimento do cliente","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",
-"437273","Impedimento","Aguardando operadores para teste assistido","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",
-"439158","Impedimento","VM Travando ao debuggar","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",
-"439621","Impedimento","Sem acesso a VM do cliente","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",
-"440112","Impedimento","Sem acesso a VM","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",
-"441049","Impedimento","Aguardando demanda/Retorno de artefatos","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",
-"441529","Impedimento","Operação ainda não retornou artefatos","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",
-"442041","Impedimento","Sem acesso ao ambiente debug cliente","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",
-"443513","Impedimento","Aguardando retorno da operação","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",
-"443816","Impedimento","Aguardando retorno da operação","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",
+﻿ID,Work Item Type,Title,Assigned To,State,Tags,Activated Date,Closed Date
+"427476","Impedimento","Aguardando acesso a VM","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",,"27/07/2026 23:03:10","27/07/2026 17:00:00"
+"431184","Impedimento","Bloqueio em Acesso ao Twillio/Redis","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",,"05/08/2026 18:40:20","05/08/2026 18:40:20"
+"433945","Impedimento","Aguardando Validação QA","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",,"13/08/2026 18:04:23","13/08/2026 18:04:24"
+"434542","Impedimento","Aguardando validação do QA","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",,"14/08/2026 21:22:09","14/08/2026 21:22:09"
+"434950","Impedimento","Aguardando validação das melhorias/Aguardando prosseguimento do cliente","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",,"17/08/2026 19:30:20","17/08/2026 19:30:20"
+"437273","Impedimento","Aguardando operadores para teste assistido","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",,"24/08/2026 19:14:19","24/08/2026 19:14:19"
+"439158","Impedimento","VM Travando ao debuggar","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",,"28/08/2026 18:24:43","28/08/2026 18:24:43"
+"439621","Impedimento","Sem acesso a VM do cliente","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",,"31/08/2026 19:10:18","31/08/2026 19:10:18"
+"440112","Impedimento","Sem acesso a VM","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",,"01/09/2026 19:29:33","01/09/2026 19:29:33"
+"441049","Impedimento","Aguardando demanda/Retorno de artefatos","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",,"03/09/2026 18:08:21","03/09/2026 18:08:21"
+"441529","Impedimento","Operação ainda não retornou artefatos","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",,"04/09/2026 19:31:14","04/09/2026 19:31:14"
+"442041","Impedimento","Sem acesso ao ambiente debug cliente","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",,"09/09/2026 08:26:38","09/09/2026 08:26:38"
+"443513","Impedimento","Aguardando retorno da operação","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",,"11/09/2026 17:44:21","10/09/2026 11:07:00"
+"443816","Impedimento","Aguardando retorno da operação","PITANG CONSULTORIA E SISTEMAS S A - Raphael Barbosa Holmes <pitang.raphael.holme@grupoaec.com.br>","Closed",,"11/09/2026 17:28:16","11/09/2026 17:28:16"
