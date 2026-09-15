@@ -136,6 +136,10 @@
       color: #c62828;
       font-weight: 500;
     }
+    .bug-txt {
+      color: #d84315;
+      font-weight: 500;
+    }
   </style>
 </head>
 <body>
@@ -160,6 +164,7 @@
         <li><strong>Dias Trabalhados (dias de semana):</strong> 15</li>
         <li><strong>Dias com +2HE (dias de semana):</strong> 3</li>
         <li><strong>Sábados com HE:</strong> 0</li>
+        <li><strong>Horas registradas em Impedimentos (informativo):</strong> 32:00:00</li>
       </ul>
     </details>
 
@@ -225,11 +230,16 @@
           <td class="col-tarefa">🔧 Avaliação Melhoria Autochat</td>
         </tr>
         <tr class="bg-white">
-          <td class="col-data">05/08/2026</td>
-          <td class="col-dia">qua</td>
+          <td class="col-data" rowspan="2">05/08/2026</td>
+          <td class="col-dia" rowspan="2">qua</td>
           <td class="col-tempo">06:00:00</td>
           <td class="col-id">431176</td>
           <td class="col-tarefa">🔧 Analisar viabilidade melhoria</td>
+        </tr>
+        <tr class="bg-white">
+          <td class="col-tempo">02:00:00</td>
+          <td class="col-id">431184</td>
+          <td class="col-tarefa impedimento">🚫 Bloqueio em Acesso ao Twillio/Redis</td>
         </tr>
         <tr class="bg-alt">
           <td class="col-data" rowspan="2">06/08/2026</td>
@@ -306,8 +316,8 @@
           <td class="col-tarefa"><em class="sem-registro-txt">Sem registro</em></td>
         </tr>
         <tr class="bg-white">
-          <td class="col-data" rowspan="3">13/08/2026<br><span class="he-badge">+ 6HE</span></td>
-          <td class="col-dia" rowspan="3">qui</td>
+          <td class="col-data" rowspan="4">13/08/2026<br><span class="he-badge">+ 6HE</span></td>
+          <td class="col-dia" rowspan="4">qui</td>
           <td class="col-tempo">08:00:00</td>
           <td class="col-id">433739</td>
           <td class="col-tarefa">🔧 Desenvolvimento de melhorias autochat</td>
@@ -322,12 +332,22 @@
           <td class="col-id">433940</td>
           <td class="col-tarefa">🔧 Resolução de responsividade extensão</td>
         </tr>
+        <tr class="bg-white">
+          <td class="col-tempo">02:00:00</td>
+          <td class="col-id">433945</td>
+          <td class="col-tarefa impedimento">🚫 Aguardando Validação QA</td>
+        </tr>
         <tr class="bg-alt">
-          <td class="col-data">14/08/2026</td>
-          <td class="col-dia">sex</td>
+          <td class="col-data" rowspan="2">14/08/2026</td>
+          <td class="col-dia" rowspan="2">sex</td>
           <td class="col-tempo">02:00:00</td>
           <td class="col-id">434543</td>
           <td class="col-tarefa">🔧 Alinhamento demandas autochat</td>
+        </tr>
+        <tr class="bg-alt">
+          <td class="col-tempo">06:00:00</td>
+          <td class="col-id">434542</td>
+          <td class="col-tarefa impedimento">🚫 Aguardando validação do QA</td>
         </tr>
         <tr class="bg-white">
           <td class="col-data">15/08/2026</td>
@@ -344,8 +364,8 @@
           <td class="col-tarefa"><em class="weekend-txt">Domingo</em></td>
         </tr>
         <tr class="bg-white">
-          <td class="col-data" rowspan="2">17/08/2026</td>
-          <td class="col-dia" rowspan="2">seg</td>
+          <td class="col-data" rowspan="3">17/08/2026</td>
+          <td class="col-dia" rowspan="3">seg</td>
           <td class="col-tempo">01:00:00</td>
           <td class="col-id">434946</td>
           <td class="col-tarefa">🔧 Daily 17/08/2026</td>
@@ -354,6 +374,11 @@
           <td class="col-tempo">01:00:00</td>
           <td class="col-id">434948</td>
           <td class="col-tarefa">🔧 Alinhamento melhoria autochat</td>
+        </tr>
+        <tr class="bg-white">
+          <td class="col-tempo">06:00:00</td>
+          <td class="col-id">434950</td>
+          <td class="col-tarefa impedimento">🚫 Aguardando validação das melhorias/Aguardando prosseguimento do cliente</td>
         </tr>
         <tr class="bg-alt">
           <td class="col-data">18/08/2026</td>
@@ -408,8 +433,8 @@
           <td class="col-tarefa"><em class="weekend-txt">Domingo</em></td>
         </tr>
         <tr class="bg-alt">
-          <td class="col-data" rowspan="3">24/08/2026<br><span class="he-badge">+ 5HE</span></td>
-          <td class="col-dia" rowspan="3">seg</td>
+          <td class="col-data" rowspan="4">24/08/2026<br><span class="he-badge">+ 5HE</span></td>
+          <td class="col-dia" rowspan="4">seg</td>
           <td class="col-tempo">08:00:00</td>
           <td class="col-id">436978</td>
           <td class="col-tarefa">🔧 Resolução melhoria autochat</td>
@@ -423,6 +448,11 @@
           <td class="col-tempo">04:00:00</td>
           <td class="col-id">437275</td>
           <td class="col-tarefa">🔧 Execução de teste assistido</td>
+        </tr>
+        <tr class="bg-alt">
+          <td class="col-tempo">03:00:00</td>
+          <td class="col-id">437273</td>
+          <td class="col-tarefa impedimento">🚫 Aguardando operadores para teste assistido</td>
         </tr>
         <tr class="bg-white">
           <td class="col-data">25/08/2026</td>
@@ -446,8 +476,8 @@
           <td class="col-tarefa"><em class="sem-registro-txt">Sem registro</em></td>
         </tr>
         <tr class="bg-alt">
-          <td class="col-data" rowspan="4">28/08/2026<br><span class="he-badge">+ 11HE</span></td>
-          <td class="col-dia" rowspan="4">sex</td>
+          <td class="col-data" rowspan="5">28/08/2026<br><span class="he-badge">+ 11HE</span></td>
+          <td class="col-dia" rowspan="5">sex</td>
           <td class="col-tempo">08:00:00</td>
           <td class="col-id">438915</td>
           <td class="col-tarefa">🔧 Resolução bugs de homologação</td>
@@ -467,6 +497,11 @@
           <td class="col-id">439161</td>
           <td class="col-tarefa">🔧 Reunião Geral</td>
         </tr>
+        <tr class="bg-alt">
+          <td class="col-tempo">05:00:00</td>
+          <td class="col-id">439158</td>
+          <td class="col-tarefa impedimento">🚫 VM Travando ao debuggar</td>
+        </tr>
         <tr class="bg-white">
           <td class="col-data">29/08/2026</td>
           <td class="col-dia">sáb</td>
@@ -484,9 +519,9 @@
         <tr class="bg-white">
           <td class="col-data">31/08/2026</td>
           <td class="col-dia">seg</td>
-          <td class="col-tempo">--</td>
-          <td class="col-id">--</td>
-          <td class="col-tarefa"><em class="sem-registro-txt">Sem registro</em></td>
+          <td class="col-tempo">08:00:00</td>
+          <td class="col-id">439621</td>
+          <td class="col-tarefa impedimento">🚫 Sem acesso a VM do cliente</td>
         </tr>
       </tbody>
     </table>
@@ -500,15 +535,16 @@
       <summary>Resumo do mês (Parcial até 15/09/2026)</summary>
       <ul>    
         <li><strong>QtdHoras Esperadas no Mes:</strong> 10 dias x 8 = 80</li>
-        <li><strong>Total de horas no mês:</strong> 26:00:00</li>
-        <li><strong>Horas no mês: (dias de semana)</strong> 26:00:00</li>
+        <li><strong>Total de horas no mês:</strong> 27:00:00</li>
+        <li><strong>Horas no mês: (dias de semana)</strong> 27:00:00</li>
         <li><strong>Horas no Sábado: </strong> 00:00:00</li>
 
-        <li><strong>Horas extras (dias de semana):</strong> 26:00:00 - 80:00:00 = -54:00:00</li>
+        <li><strong>Horas extras (dias de semana):</strong> 27:00:00 - 80:00:00 = -53:00:00</li>
 
-        <li><strong>Dias Trabalhados (dias de semana):</strong> 5</li>
+        <li><strong>Dias Trabalhados (dias de semana):</strong> 6</li>
         <li><strong>Dias com +2HE (dias de semana):</strong> 0</li>
         <li><strong>Sábados com HE:</strong> 0</li>
+        <li><strong>Horas registradas em Impedimentos (informativo):</strong> 38:00:00</li>
       </ul>
     </details>
 
@@ -528,9 +564,9 @@
         <tr class="bg-white">
           <td class="col-data">01/09/2026</td>
           <td class="col-dia">ter</td>
-          <td class="col-tempo">--</td>
-          <td class="col-id">--</td>
-          <td class="col-tarefa"><em class="sem-registro-txt">Sem registro</em></td>
+          <td class="col-tempo">08:00:00</td>
+          <td class="col-id">440112</td>
+          <td class="col-tarefa impedimento">🚫 Sem acesso a VM</td>
         </tr>
         <tr class="bg-alt">
           <td class="col-data">02/09/2026</td>
@@ -542,16 +578,21 @@
         <tr class="bg-white">
           <td class="col-data">03/09/2026</td>
           <td class="col-dia">qui</td>
-          <td class="col-tempo">--</td>
-          <td class="col-id">--</td>
-          <td class="col-tarefa"><em class="sem-registro-txt">Sem registro</em></td>
+          <td class="col-tempo">08:00:00</td>
+          <td class="col-id">441049</td>
+          <td class="col-tarefa impedimento">🚫 Aguardando demanda/Retorno de artefatos</td>
         </tr>
         <tr class="bg-alt">
-          <td class="col-data">04/09/2026</td>
-          <td class="col-dia">sex</td>
+          <td class="col-data" rowspan="2">04/09/2026</td>
+          <td class="col-dia" rowspan="2">sex</td>
           <td class="col-tempo">02:00:00</td>
           <td class="col-id">441531</td>
           <td class="col-tarefa">🔧 Resolução nova melhoria</td>
+        </tr>
+        <tr class="bg-alt">
+          <td class="col-tempo">06:00:00</td>
+          <td class="col-id">441529</td>
+          <td class="col-tarefa impedimento">🚫 Operação ainda não retornou artefatos</td>
         </tr>
         <tr class="bg-white">
           <td class="col-data">05/09/2026</td>
@@ -589,13 +630,13 @@
         <tr class="bg-white">
           <td class="col-data">09/09/2026</td>
           <td class="col-dia">qua</td>
-          <td class="col-tempo">--</td>
-          <td class="col-id">--</td>
-          <td class="col-tarefa"><em class="sem-registro-txt">Sem registro</em></td>
+          <td class="col-tempo">08:00:00</td>
+          <td class="col-id">442041</td>
+          <td class="col-tarefa impedimento">🚫 Sem acesso ao ambiente debug cliente</td>
         </tr>
         <tr class="bg-alt">
-          <td class="col-data" rowspan="3">10/09/2026</td>
-          <td class="col-dia" rowspan="3">qui</td>
+          <td class="col-data" rowspan="4">10/09/2026</td>
+          <td class="col-dia" rowspan="4">qui</td>
           <td class="col-tempo">01:00:00</td>
           <td class="col-id">443510</td>
           <td class="col-tarefa">🔧 Daily 10/09/2026</td>
@@ -610,12 +651,22 @@
           <td class="col-id">443512</td>
           <td class="col-tarefa">🔧 Configuração ambiente fortipam(João Braga)</td>
         </tr>
+        <tr class="bg-alt">
+          <td class="col-tempo">04:00:00</td>
+          <td class="col-id">443513</td>
+          <td class="col-tarefa impedimento">🚫 Aguardando retorno da operação</td>
+        </tr>
         <tr class="bg-white">
-          <td class="col-data">11/09/2026</td>
-          <td class="col-dia">sex</td>
+          <td class="col-data" rowspan="2">11/09/2026</td>
+          <td class="col-dia" rowspan="2">sex</td>
           <td class="col-tempo">04:00:00</td>
           <td class="col-id">443807</td>
           <td class="col-tarefa">🔧 Desenvolvimento performance</td>
+        </tr>
+        <tr class="bg-white">
+          <td class="col-tempo">04:00:00</td>
+          <td class="col-id">443816</td>
+          <td class="col-tarefa impedimento">🚫 Aguardando retorno da operação</td>
         </tr>
         <tr class="bg-alt">
           <td class="col-data">12/09/2026</td>
@@ -634,9 +685,9 @@
         <tr class="bg-alt">
           <td class="col-data">14/09/2026</td>
           <td class="col-dia">seg</td>
-          <td class="col-tempo">--</td>
-          <td class="col-id">--</td>
-          <td class="col-tarefa"><em class="sem-registro-txt">Sem registro</em></td>
+          <td class="col-tempo">01:00:00</td>
+          <td class="col-id">444027</td>
+          <td class="col-tarefa bug-txt">🐛 Consumo de memória</td>
         </tr>
         <tr class="bg-white">
           <td class="col-data">15/09/2026</td>
